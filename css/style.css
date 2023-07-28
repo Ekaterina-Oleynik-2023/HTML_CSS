@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,600&family=Roboto&family=Victor+Mono&family=Vollkorn+SC&display=менять);
+
+@font-face {
+  font-family: Family New;
+  src: url(../fonts/VictorMono-Medium.ttf);
+}
+
+body{
+  background-image: url(../img/fon.jpg);
+  font-family: Roboto, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.header{
+  padding: 2px 0px;
+  position: sticky;
+  top: 0px;
+}
+
+.special_container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .special_container{
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  border: 1px solid #333; /* Параметры рамки */ 
+}
+
+.logo img{
+  vertical-align: bottom;
+  width: 225px;
+  height: 180px;
+}
+
+.main_title_header, .big_title{
+  font-family: NotoSerif_Condensed-Bolditalic;
+  font-size: 100px;
+  margin-left: 3px;
+}
+
+.menu{
+  margin-left: 45px;
+  display: flex;
+  list-style: none;
+}
+
+.menu_iyem{
+  margin-right: 40px;
+}
+
+.menu_iyem a{
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu_iyem a:hover{
+  border-bottom: 3px solid rgb(245, 18, 18);
+}
+
+/*Конец блока header*/
+
+/*Начало блока Section*/
+
+.main_content{
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+
+.main_content_info{
+  max-width: 1200px;
+}
+
+.content_title{
+  font-family: NotoSerif-Bolditalic;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 450px;
+}
+
+.content_text{
+  background-color: beige;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 56px;
+  text-align: justify;
+  border: 1px solid #333;
+}
+
+.card{
+  color: rgb(206, 23, 23);
+}
+
+/*Конец блока Section*/
+
+/*Начало блока Footer*/
+.footer{
+  background-color: beige;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.footer .special_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_info{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.footer .up_link{
+  font-size: 14px;
+  line-height: 20px;
+}
+/*Конец блока Footer*/
